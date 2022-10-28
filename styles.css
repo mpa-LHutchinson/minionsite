@@ -29,12 +29,19 @@ button:hover{
 }
 
 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
     display:block;
     margin:auto;
     margin-top: 10px;
     padding: 20px 20px;
-    font-family: Arial, Helvetica, sans-serif;
     color: black;
-    background-color: yellow;
+    background-color: lightblue;
     border: 6px solid blue;
+}
+
+a:hover{
+    cursor: pointer;
 }
